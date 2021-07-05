@@ -4,16 +4,19 @@ body{
 }
 
 .mainCard{
-    width: 80%;
-    height: 40%;
-    margin-left: 10%;
+    width: 70%;
+    height: 10%;
+    margin-left: 5%;
     margin-top: 10%;
-    background-color: hsl(244, 38%, 16%);
+    display: flex;
 }
 
 .cardLeft{
     width: 50%;
+    padding: 5%;
+    background-color: hsl(244, 38%, 16%);
     font-family: 'Inter', sans-serif;
+    text-align: left;
 }
 
 .cardLeft p{
@@ -37,4 +40,16 @@ body{
 
 .cardStats h2{
     color: hsl(0, 0%, 100%);
+}
+
+.cardRight{
+    width: 50%;
+    background-color: hsl(277, 64%, 61%);
+}
+
+.cardRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
 }
