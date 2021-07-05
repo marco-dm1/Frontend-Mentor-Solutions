@@ -1,12 +1,40 @@
 body{
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
 }
 
-.cardMain{
+.mainCard{
     width: 80%;
     height: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: hsl(244, 38%, 16%);
 }
 
 .cardLeft{
-    background-color: hsl(244, 38%, 16%);
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+}
+
+.cardLeft p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cardLeft span{
+    color: hsl(277, 64%, 61%);
+}
+
+.cardLeft h1{
+    font-weight: 700, 100;
+    color: hsl(0, 0%, 100%);
+}
+
+.cardStats{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400, 100;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.cardStats h2{
+    color: hsl(0, 0%, 100%);
 }
