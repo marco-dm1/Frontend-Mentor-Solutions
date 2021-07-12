@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+#boxContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.informationBox{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.informationBox h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+.informationBox img{
+    padding: 10px 0 10px 0;
+}
+
+.informationBox a{
+    color: transparent;
+    background-color: white;
+    border-radius: 12px;
+    border-style: 1px solid;
+    border-color: red;
+    text-decoration: none;
+}
+
+.informationBox a:hover{
+    background-color: transparent;
+    color: white;
+}
